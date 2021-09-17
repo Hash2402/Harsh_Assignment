@@ -29,10 +29,15 @@ Tables in the DATA base
    This table contains the following columns a)col_1(varchar 20)
                                              b)col_2(varchar 20)
                                              c)col_3(varchar 20)
-*-------------*-------------*---------*
-* col_1       *  col_2      * col_3   *
-*-------------*-------------*---------*
-*   Ram       *   1221      *  A      *
-*   Leela     *   1521      *  C      *
-*   Raj       *   2521      *  C      *
-*-------------*-------------*---------*
+          col_1(Ram,Leela,Raj)
+          col_2(1221,1521,2521)
+          col_3(A,C,C)
+
+3) table_2
+  This table contains the following columns a)col_1(varchar 20)
+                                            b)col_2(varchar 20)
+                                            c)col_3(varchar 20)
+         col_1(Harsh,Nitish,Reena)
+         col_2(3036,1224,0012)
+         col_3(A,B,A)
+           
