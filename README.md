@@ -1,1 +1,38 @@
-# Harsh_Assignment
+Problem Statement :- 
+                    A database has multiple tables with important data in form of rows and columns. This database also has a table (keyword_table) which stores keywords. These keywords point to the other database tables from which data is to be fetched as per the keyword.
+               
+Softwares used :- 1) PHP
+                  2) XAMPP
+                  3) MYSQL Database
+                  
+Nameof database = hash
+Tables in the DATA base 
+
+1) keyword 
+ This table contains the following columns a)keyword_val(varchar 20)
+                                           b)table_name(varchar 20)
+                                           c)column_name(varchar 20)
+*-------------*-------------*--------------------*
+* keyword_val *  table_name * column_name        *
+*-------------*-------------*--------------------*
+*    000      *   table_1   *  col_1,col_2       *
+*    010      *   table_2   * col_1,col_3        *
+*    001      *   table_1   * col_2,col_3        *
+*    100      *   table_1   * col_1,col_3        *
+*    011      *   table_1   * col_1,col_2,col_3  *
+*    110      *   table_2   * col_1,col_2        *
+*    101      *   table_2   * col_2,col_3        *
+*    111      *   table_2   * col_1,col_2,col_3  *
+*-------------*-------------*--------------------*
+
+2) table_1
+   This table contains the following columns a)col_1(varchar 20)
+                                             b)col_2(varchar 20)
+                                             c)col_3(varchar 20)
+*-------------*-------------*---------*
+* col_1       *  col_2      * col_3   *
+*-------------*-------------*---------*
+*   Ram       *   1221      *  A      *
+*   Leela     *   1521      *  C      *
+*   Raj       *   2521      *  C      *
+*-------------*-------------*---------*
