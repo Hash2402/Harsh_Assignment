@@ -32,6 +32,8 @@ Tables in the DATA base
           col_1(Ram,Leela,Raj)
           col_2(1221,1521,2521)
           col_3(A,C,C)
+          
+         
 
 3) table_2
   This table contains the following columns a)col_1(varchar 20)
@@ -41,3 +43,28 @@ Tables in the DATA base
          col_2(3036,1224,0012)
          col_3(A,B,A)
            
+QURY USED in the PHP :- 
+                SELECT table_name, column_name  FROM keyword WHERE keyword_val=$key(value taken as input from the url)
+                SELECT $sep[$i] FROM $row_val
+                
+                
+                where $sep[$i]= column_name array element where &i ranges from 0 to array.length-1
+                and 
+                $row_val= value of table name
+                
+               for example if we click on the button  '000' we get the OUTPUT as
+                
+               Table Name :- table_name
+               col_1
+               Ram
+               Leela
+               Raj
+               
+               col_2
+               1221
+               1521
+               2521
+                
+                
+                
+When the user clicks on any of the buttons on the first page we get the keyword+val from
