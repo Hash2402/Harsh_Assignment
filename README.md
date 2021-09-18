@@ -67,4 +67,4 @@ QURY USED in the PHP :-
                 
                 
                 
-When the user clicks on any of the buttons on the first page we get the keyword+val from
+
